@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
     char read[1024];
     int bytes_received = recvfrom(socket_listen, read, 1024, 0, (struct sockaddr*) &client_address, &client_len);
 
-    printf("Received bytes: (%d). Received data: %.*s", bytes_received, bytes_received, read);
+    printf("Received bytes: (%d). Received data: %.*s\n", bytes_received, bytes_received, read);
 
     printf("Remote address is:\n");
 
