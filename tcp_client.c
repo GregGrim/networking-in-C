@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 #endif
 
     if (argc < 3) {
-        fprintf(stderr, "usage: tcp_clinet hostname port.\n");
+        fprintf(stderr, "usage: tcp_client hostname port.\n");
         return 1;
     }
 
